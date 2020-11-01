@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "esbuild": "^0.8.1",
+    "three": "^0.122.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.17",
+    "@web/dev-server-esbuild": "^0.2.6",
+    "standard": "^16.0.1"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "build": "esbuild index.js --bundle --outfile=dist/app.js --sourcemap --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julien-laville/confideuxment.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Julien-laville/confideuxment/issues"
+  },
+  "homepage": "https://github.com/Julien-laville/confideuxment#readme",
+  "type": "module"
+}
